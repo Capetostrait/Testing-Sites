@@ -1,0 +1,207 @@
+
+/*********Start Global CSS**********/
+body {
+    background: #FFF;
+}
+
+/*********End Global CSS**********/
+
+
+
+/*********Nav Bar CSS**********/
+
+#corner_buttons {
+    float: right;
+}
+
+/********* End Nav Bar CSS**********/
+
+
+/********* Start Main Container CSS**********/
+#map_canvas {
+    width:390px; 
+    height:198px;
+/*
+    margin-left:10px;
+    margin-bottom: 20px;
+    float:left;
+    clear:both;
+*/
+}
+
+#google_location_finder.well.form-search {
+    width: 378px; 
+    height:198px;
+/*    float:left;
+*/}
+
+
+/********* End Main Container  CSS**********/
+
+/********* Start OLD Main Container CSS**********
+#DTR_header {
+
+}
+
+
+#google_location_finder {
+    float:left;
+
+}
+
+#map_canvas {
+    width:390px; 
+    height:198px;
+    margin-left:10px;
+    margin-bottom: 20px;
+    float:left;
+    clear:both;
+/*    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 20% }
+    </style>
+
+}
+
+#google_location_finder.well.form-search {
+    width: 378px; 
+    height:198px;
+    float:left;
+}
+
+#searchbar_length {
+    width: 290px;
+    float: left;
+}
+
+#first_postbox {
+    /*Should be a spanmargin-right: 300px;
+    clear:right;
+}
+
+#second_postbox {
+    margin-left: 0px;
+    clear:right;
+    float:left;
+}
+
+
+.postbox {
+    height: 200px;
+  /*  margin-left:10px;
+    margin-right:20px;
+    float: left;
+}
+
+span3 {
+    float:left;
+}
+
+********* End OLD Main Container CSS**********/
+
+
+
+
+/********* Start Pop Up Container CSS**********/
+
+#absolute {
+    position:absolute;
+    top:100px;
+}
+
+#top_pop_up_container {
+    background: #FFE5C5 ;
+    height: 40px;
+    margin-left: 0px;
+    width: 580px;
+
+}
+
+
+#location_search_box {
+    margin-left: 20px;
+    width:525px;
+   
+}
+
+
+.well.form-search {
+    /*width: 550px;*/
+    padding:5px;
+    margin-bottom: 0px;
+/*    margin-left: 10px;
+*/  
+}
+
+#main_pop_up_container {
+    background: #FFE5C5;
+    height: 450px;
+ 
+}
+
+.Search_btn {
+    float:right;
+}
+
+.input-custom_xlarge {
+   width: 370px;
+   font-size: 30px;
+}
+
+.well.form-search {
+    height: 30px;
+    font-size: 30px;
+ 
+}
+
+.search-query {
+    padding-right: 400px
+}
+
+        /********* Start Category Container CSS**********/
+
+#main_pop_up_header_container {
+    margin-left: 10px;
+    width: 525px;
+        }
+        
+        
+.category_pop_up_container {
+    float:right;
+    width: 142px;
+    height: 650px;
+    
+    
+}
+
+.category_pop_up_container.well {
+    height: 330px;
+    margin: 5px;
+    background: whitesmoke;
+      
+}
+              
+.category_pop_up_container_header {
+    
+}
+
+.btn {
+    width: 100px;
+}
+
+.category_pop_up_container_image {
+    width: 142;
+    height: 142;
+}
+
+.category_pop_up_container_text {
+    margin-top: 10px;
+
+}
+
+
+
+        /********* End Category Container CSS**********/
+
+/********* End Pop Up Container CSS**********/

@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="bootstrap.css" />
+        <link rel="stylesheet" href="styles.css" />
+        
+        <title>Down the Road</title>
+        
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    </head>
+
+    <body onload="initialize()">
+   
+<!--Start nav bar-->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container" id="no_border">
+                    <h1><a class="brand" href="#">
+                        Down the Road
+                    </a></h1>
+                    
+                      <ul class="nav">
+                        <li class="active">
+                          <a href="#">Contact Us</a>
+                        </li>                      
+                      </ul>
+                    
+                      <ul class="nav" id="corner_buttons">
+                        <li class="active">
+                          <a href="#">Join</a>
+                        </li>
+                        <li class="active">
+                          <a href="#">Sign in</a>
+                        </li> 
+                      </ul>
+                    
+                </div>
+            </div>
+        </div>  
+      
+ <!--End nav bar-->        
+        
+<!--Start Main Container -->
+
+<div class ="container">
+    <div class="row">
+        <div class="span12" id="DTR_header">
+            <h2>Down The Road is an online pinboard for your real world community</h2>
+            <p></p>
+        </div>
+    </div> 
+    <div class="inner_container">
+        <div class="row">
+            <div class="span4">
+                <form class="well form-search" id="google_location_finder" >
+                    <input type="text" class="input-medium search-query" id="searchbar_length" placeholder="Find your house on the map">
+                    <!--<button type="submit" class="btn">Search</button>-->
+                    <div id="map_canvas"></div>    
+                </form>
+            </div>
+       </div>      
+            <!--<div class="well span3 postbox" id="first_postbox">
+            See
+            </div>
+             <div class="well span3 postbox"id="second_postbox">
+            See
+            </div>-->
+        
+<!--
+        <div class="well span2 postbox">
+            See
+        </div>
+        <div class="well span2 postbox">
+            See
+        </div>
+        <div class="well span2 postbox">
+            See
+        </div>
+        <div class="well span2 postbox">
+            See
+        </div>
+        <div class="well span2 postbox">
+            See
+        </div>
+        <div class="well span2 postbox">
+            See
+        </div><div class="well span2 postbox">
+            See
+        </div>
+        <div class="well span2 postbox">
+            See
+        </div>
+        
+    </div>
+</div> 
+
+
+
+-->    
+
+
+
+
+
+<!-- End Main Container -->
+
+    
+    <!-- Start Pop Up -->
+        
+        <div class="container" >
+            <div class="row" id="absolute">
+                <div class="span8 offset2">
+                   <div class="well span6" id="top_pop_up_container">
+        
+                               <form class="well form-search">
+                                <input type="text" class="input-custom_xlarge search-query" placeholder="Enter your street or suburb here" >
+                                <button type="submit" class="btn Search_btn">Search</button>
+                                </form>
+
+                    </div>
+                  
+                </div>
+                 <div class="span8 offset2">
+                   <div class="well" id="main_pop_up_container">
+                       <div class="well span6" id="main_pop_up_header_container">
+                               See what's happening in this neighbourhood?
+                       </div> 
+                       <div class="well category_pop_up_container">
+                              
+                           
+                           <div class="category_pop_up_container_header">
+                                 <p><a class="btn btn-info btn-large">
+                                 What's on</a></p>
+                                 </div>
+                                 <div class="category_pop_up_container_image">
+                                     <img src="https://downtheroad.co.nz/s3/messages-test/2cb91051-6ed6-4f1f-a83f-e91e97040e68.jpg?width=210&autorotate=true" />                 
+                                 </div> 
+                                <div class="category_pop_up_container_text">
+                                    <p>Missing out or "too late" for for local events & meetups? Not anymore...<a>click here</a></p>
+                                </div>
+                            </div>
+
+
+                            <div class="well category_pop_up_container">
+                                <div class="category_pop_up_container_header">
+                                 <p><a class="btn btn-danger btn-large">
+                                 Safety</a></p>
+                                 </div>
+
+                                 <div class="category_pop_up_container_image">
+                                     <img src="https://downtheroad.co.nz/s3/messages-test/890df647-0d4b-462c-b5e9-2c0127c91349.jpg?width=210&autorotate=true"/>      
+                                 </div>
+
+                                <div class="category_pop_up_container_text">
+                                    <p>Is your street and family safe? Find or share info about crime near your home - <a>click here</a></p>
+                                </div>
+
+                            </div>
+
+
+                            <div class="well category_pop_up_container">
+                                <div class="category_pop_up_container_header">
+                                 <p><a class="btn btn-success btn-large">
+                                 Favourites</a></p>
+                                 </div>
+
+                                 <div class="category_pop_up_container_image"   >
+                                     <img src="https://downtheroad.co.nz/s3/messages-test/982239e8-db80-4ff0-9565-b3bbe65c02b3.jpg?width=210&autorotate=true" />  
+                                 </div>   
+
+                                <div class="category_pop_up_container_text">
+                                    <p>What's so amazing about your neighbourhood or community? Curious...<a>click here</a></p>
+                                </div>
+
+                            </div>
+                       
+                       
+                    </div>  
+                </div>
+            </div>        
+        </div>
+    
+  <!-- End Pop Up -->
+     
+     
+  
+ 
+    </div>
+</div>
+
+    
+    
+    
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDYSQGCd2GltTs_pJN-khpUOHDJH7FkMdw&amp;sensor=true">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-36.866836,174.75111),
+          zoom: 9,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+      }
+    </script>
+   
+</body>
+</html>
+
